@@ -2,16 +2,17 @@
   height: 100vh;
   background-color: #0d1116;
   text-align: center;
-  color: white;
+  color: #3e2e2e;
 }
 
 p {
-  margin:0;
+  margin: 0;
 }
 
 .container {
   height: 100%;
   background-color: #181818;
+  background-image: linear-gradient(to bottom right, #eba300, #ffc83d);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -21,7 +22,7 @@ p {
   padding-top: 30px;
 }
 
-header{
+header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -32,28 +33,29 @@ header{
   margin: 0;
   font-size: 35px;
   font-weight: bold;
-  color: white;
+  color: #424141;
 }
 
 .subtitle {
   font-size: 25px;
-  color: white;
+  color: #424141;
 }
 
-.left{
+.left {
   text-align: left;
   margin-left: 10%;
 }
 
-.logo{
+.logo {
   width: 20px;
   height: 20px;
   margin-right: 10px;
 }
 
-.right{
+.right {
   display: flex;
-  background: black;
+  background: #351804;
+  color: rgb(209, 209, 209);
   border-radius: 16px;
   padding: 12px 20px;
   height: 99%;
@@ -64,7 +66,10 @@ header{
 .content-container {
   background-color: #a200d6;
 }
-
+.image-giphy {
+  height: 350px;
+  width: 350px;
+}
 .cta-button {
   height: 45px;
   border: 0;
@@ -75,7 +80,7 @@ header{
   cursor: pointer;
   font-size: 16px;
   font-weight: bold;
-  color: white;
+  color: #fef4f4;
 }
 
 .connect-wallet-container {
@@ -104,7 +109,7 @@ header{
 }
 
 .mint-button {
-  background: -webkit-linear-gradient(left, #a200d6, #ff6fdf);
+  background: -webkit-linear-gradient(left, #184306, #069943);
   font-size: 18px;
   background-size: 200% 200%;
   animation: gradient-animation 4s ease infinite;
@@ -113,19 +118,19 @@ header{
   padding: 0px 2rem;
 }
 
-.mint-button:disabled{
+.mint-button:disabled {
   background: #550072;
   color: rgb(209, 209, 209);
   cursor: not-allowed;
 }
 
-.mint-row{
+.mint-row {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-.edit-button{
+.edit-button {
   border-radius: 50%;
   cursor: pointer;
   margin-left: 3px;
@@ -135,10 +140,9 @@ header{
   background-color: transparent;
 }
 
-.edit-icon{
+.edit-icon {
   width: 12px;
 }
-
 
 .footer-container {
   display: flex;
@@ -153,12 +157,12 @@ header{
 }
 
 .footer-text {
-  color: white;
+  color: black;
   font-size: 16px;
   font-weight: bold;
 }
 
-.form-container{
+.form-container {
   display: flex;
   width: 100%;
   flex-direction: column;
@@ -166,10 +170,10 @@ header{
   align-items: center;
 }
 
-input{
+input {
   border: 0;
   border-radius: 12px;
-  background-color: black;
+  background: #351804;
   color: white;
   letter-spacing: 1px;
   font-size: 26px;
@@ -180,7 +184,7 @@ input{
 }
 
 input::placeholder {
-  color: gray;
+  color: #e8e0e0;
   letter-spacing: 2px;
 }
 
@@ -188,14 +192,13 @@ input:focus {
   outline: none;
 }
 
-.first-row{
+.first-row {
   position: relative;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 10px;
-
 }
 
 .tld {
@@ -205,7 +208,7 @@ input:focus {
   color: white;
   /* left: -70px; */
   right: 22px;
-  margin: 0;  
+  margin: 0;
   padding: 0;
   margin-bottom: 13px;
 }
@@ -248,16 +251,16 @@ input:focus {
   background-color: lightgreen;
 }
 
-.link{
+.link {
   color: black;
   text-decoration: none;
 }
 
-.underlined{
+.underlined {
   text-decoration: underline;
 }
 
-.underlined:hover{
+.underlined:hover {
   cursor: pointer;
 }
 
